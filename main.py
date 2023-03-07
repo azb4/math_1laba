@@ -32,7 +32,7 @@ face_encodings, face_names = get_face_encodings()
 video = cv2.VideoCapture(0)
 
 # Setting variable which will be used to scale size of image
-scl = 1
+scl = 2
 
 # Continuously capturing webcam footage
 while True:
