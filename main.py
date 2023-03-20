@@ -8,7 +8,6 @@ faces_path = "F:\\Downloads\\faces"
 
 
 
-# Function to get face names, as well as face encodings
 def get_face_encodings():
     face_names = os.listdir(faces_path)
     face_encodings = []
